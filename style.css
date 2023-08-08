@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+/* anexagem da fonte a ser utilizada no corpo do trabalho */
+
+/* Define a fonte para o corpo do documento, margens e preenchimento */
+body {
+  font-family: Montserrat;
+  margin: 0;
+  padding: 0;
+}
+
+/* Define um contêiner de grade com colunas automáticas e espaçamento */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Estilos para os itens da grade */
+.grid-item {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding-bottom: 50px;
+  transition: width 0.5s;
+}
+
+/* Estilos ao passar o mouse sobre um item da grade */
+.grid-item:hover {
+  border: 5px solid green;
+}
+
+/* Classe para elementos com a classe 'dev' */
+.dev {
+  color: transparent;
+}
+
+/* Estilos para links */
+a {
+  color: rgb(86, 185, 86);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* Estilos ao passar o mouse sobre um link */
+a:hover {
+  opacity: 0.5;
+  color: rgb(252, 14, 14);
+}
+
+/* Estilos para cabeçalho nível 1 */
+h1 {
+  text-align: center;
+}
+
+/* Estilos para o rodapé */
+footer {
+  color: rgb(134, 196, 134);
+  text-align: center;
+  padding: 1rem;
+  background-color: #000000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* Estilos para imagens */
+img {
+  width: 40px;
+  margin: 30px;
+}
+
+/* Estilos para o cabeçalho */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
